@@ -1,7 +1,7 @@
 import React from 'react';
 
 import TextField from '../../../components/TextField';
-import Button from '../../../components/Button';
+import Button, {ButtonColors, ButtonVariants} from '../../../components/Button';
 
 import styles from './Form.module.css';
 
@@ -9,12 +9,11 @@ const Form = () => {
   return (
     <div className={styles.container}>
       <form>
-        <TextField id="name" label="Name" name="name" disabled={true} />
+        <TextField id="name" label="Name" name="name" />
         <TextField
           id="email"
           label="Email"
           name="email"
-          noBorder={true}
           required={true}
           placeholder="Please enter your email"
         />
@@ -33,7 +32,13 @@ const Form = () => {
           resizable={false}
           rows={10}
         />
-        <Button type="submit">Submit</Button>
+        <Button
+          type="submit"
+          color={ButtonColors.Error}
+          variant={ButtonVariants.Outline}
+        >
+          Submit
+        </Button>
       </form>
     </div>
   );

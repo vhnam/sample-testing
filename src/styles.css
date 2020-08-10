@@ -13,6 +13,26 @@
   --color-black: #212121;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+  color: var(--color-black);
 }

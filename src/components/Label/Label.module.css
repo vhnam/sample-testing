@@ -10,6 +10,6 @@
 .label.required::after {
   content: '*';
   margin-left: 0.125rem;
-  color: var(--color-error);
+  color: var(--color-primary);
   display: inline-block;
 }

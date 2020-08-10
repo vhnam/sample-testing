@@ -1,3 +1,138 @@
 .button {
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: var(--color-black);
+  text-transform: uppercase;
+  border: 0.125rem solid var(--color-grey--base);
+  border-radius: 0.25rem;
+  background-color: var(--color-white);
+}
+
+.button:hover {
+  filter: brightness(0.85);
+}
+
+.button:active {
+  filter: brightness(0.65);
+}
+
+/* Primary */
+
+.button.primary {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: transparent;
+}
+
+.button.primary.outline {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+.button.primary.ghost {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+}
+
+.button.primary.link {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+/* Secondary */
+
+.button.secondary {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  border-color: transparent;
+}
+
+.button.secondary.outline {
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+  border-color: var(--color-secondary);
+}
+
+.button.secondary.ghost {
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+}
+
+.button.secondary.link {
+  color: var(--color-secondary);
+  background-color: transparent;
+}
+
+/* Success */
+
+.button.success {
+  color: var(--color-white);
+  background-color: var(--color-success);
+  border-color: transparent;
+}
+
+.button.success.outline {
+  color: var(--color-success);
+  background-color: var(--color-white);
+  border-color: var(--color-success);
+}
+
+.button.success.ghost {
+  color: var(--color-success);
+  background-color: var(--color-white);
+}
+
+.button.success.link {
+  color: var(--color-success);
+  background-color: transparent;
+}
+
+/* Warning */
+
+.button.warning {
+  color: var(--color-white);
+  background-color: var(--color-warning);
+  border-color: transparent;
+}
+
+.button.warning.outline {
+  color: var(--color-warning);
+  background-color: var(--color-white);
+  border-color: var(--color-warning);
+}
+
+.button.warning.ghost {
+  color: var(--color-warning);
+  background-color: var(--color-white);
+}
+
+.button.warning.link {
+  color: var(--color-warning);
+  background-color: transparent;
+}
+
+/* Error */
+
+.button.error {
+  color: var(--color-white);
+  background-color: var(--color-error);
+  border-color: transparent;
+}
+
+.button.error.outline {
+  color: var(--color-error);
+  background-color: var(--color-white);
+  border-color: var(--color-error);
+}
+
+.button.error.ghost {
+  color: var(--color-error);
+  background-color: var(--color-white);
+}
+
+.button.error.link {
+  color: var(--color-error);
+  background-color: transparent;
 }
