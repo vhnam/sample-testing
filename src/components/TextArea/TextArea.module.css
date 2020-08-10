@@ -1,0 +1,67 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: 'Lato', sans-serif;
+  color: var(--color-grey--base);
+}
+
+.textArea {
+  display: block;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  color: var(--color-black);
+  line-height: 1.6;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border: 0.125rem solid var(--color-grey--semi);
+  background-color: var(--white);
+  resize: none;
+}
+
+.textArea:disabled {
+  background-color: var(--color-grey--semi);
+  border-color: var(--color-grey--base);
+  cursor: not-allowed;
+}
+
+.textArea:focus {
+  border-color: #4688f1;
+}
+
+.textArea.error {
+  border-color: var(--color-error);
+}
+
+.textArea.noBorder {
+  border-color: transparent;
+}
+
+.textArea.resizable {
+  resize: both;
+}
+
+.assistiveText {
+  margin-top: 0.25rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: var(--color-grey--base);
+  line-height: 1.6;
+}
+
+.assistiveText.error {
+  color: var(--color-error);
+}

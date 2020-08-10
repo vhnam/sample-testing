@@ -1,0 +1,15 @@
+.label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.label.required::after {
+  content: '*';
+  margin-left: 0.125rem;
+  color: var(--color-error);
+  display: inline-block;
+}

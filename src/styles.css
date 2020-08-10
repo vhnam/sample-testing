@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #1e90ff;
+  --color-secondary: #115ffb;
+  --color-tertiary: #5540fb;
+  --color-success: #18a957;
+  --color-warning: #ffbb38;
+  --color-error: #df1642;
+  --color-grey--light: #fcfcfc;
+  --color-grey--semi: #e6e6e6;
+  --color-grey--base: #939393;
+  --color-grey--dark: #666;
+  --color-white: #fff;
+  --color-black: #212121;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
